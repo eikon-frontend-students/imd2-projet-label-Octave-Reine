@@ -48,12 +48,67 @@
       </div>
       <div class="NavBanner"></div>
       <img src="img/Banner.png" alt="banner" />
-      <div class="content">
-        <div class="artist-list">
-          <h3>ARTISTS OF THE MONTH</h3>
+      <section class="section">
+        <div class="wrap">
+          <p class="kicker">ARTISTS OF THE MONTH</p>
+
+          <div class="artists">
+            <div class="artists__row artists__row--dim">ENNIO MORRICONE</div>
+
+            <div class="artists__row artists__row--active">
+              <span class="artists__flag" aria-hidden="true"></span>
+              <span class="artists__name">PHILIPPE SARDE</span>
+            </div>
+
+            <div class="artists__row artists__row--dim">RYUICHI SAKAMOTO</div>
+            <div class="artists__row artists__row--dim artists__row--strong">
+              PIERO PICCIONI
+            </div>
+          </div>
         </div>
-        <div class="list"></div>
-      </div>
+      </section>
+      <footer class="footer">
+        <div class="wrap footer__grid">
+          <div class="footer__left">
+            <img
+              class="footer__logo"
+              src="img/logo-white.png"
+              alt="Quartet Records"
+            />
+
+            <p class="footer__label">SUBSCRIBE TO OUR NEWSLETTER</p>
+            <form class="newsletter" action="#" method="post">
+              <input
+                class="newsletter__input"
+                type="email"
+                placeholder="YOUR EMAIL"
+              />
+              <button class="newsletter__btn" type="button" aria-label="Submit">
+                <span>→</span>
+              </button>
+            </form>
+
+            <p class="footer__small">ALL RIGHT RESERVED ©2025</p>
+          </div>
+
+          <div class="footer__right">
+            <p class="footer__label footer__label--muted">INFORMATION</p>
+
+            <div class="footerLinks">
+              <a href="#">ARTISTS</a>
+              <a href="#">SHOP</a>
+              <a href="#">EVENTS</a>
+              <a href="#">ABOUT US</a>
+            </div>
+
+            <div class="footerSocial" aria-label="Social">
+              <a class="socialDot" href="#" aria-label="X"></a>
+              <a class="socialDot" href="#" aria-label="Facebook"></a>
+              <a class="socialDot" href="#" aria-label="Instagram"></a>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
 
     <script src="js/main.js" type="module"></script>
